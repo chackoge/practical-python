@@ -4,6 +4,7 @@
 init_ht=100
 print('iteration','value',sep="   ")
 for i in range(10):
-    ht=init_ht * 0.6
-    init_ht=ht
-    print(i+1,round(ht,4),sep="\t\t\t")
+    #ht=init_ht * 0.6
+    #init_ht=ht
+    init_ht = init_ht * 0.6
+    print(i+1,round(init_ht,4),sep="\t\t\t")
